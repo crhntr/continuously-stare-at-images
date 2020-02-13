@@ -44,8 +44,8 @@ nsEventLoop:
 		switch nsEvent.Type {
 		default: // ignored
 			// fmt.Println("ignored namespace event", nsEvent)
-
-		case watch.Added, watch.Modified:
+			continue nsEventLoop
+		case watch.Added:
 		}
 
 		podWatcher, err := cluster.CoreV1().Pods(namespace.ObjectMeta.Name).Watch(metav1.ListOptions{})
