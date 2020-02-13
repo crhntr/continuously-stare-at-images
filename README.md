@@ -8,3 +8,5 @@ It is also a small example of using the kubernetes Go library.
 ```sh
 go run main.go
 ```
+
+You can the `KUBERNETES_CONFIG_PATH` if you want to not use the default macOS config file.
