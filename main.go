@@ -60,7 +60,7 @@ nsEventLoop:
 			switch podEvent.Type {
 			default:
 				continue podEventLoop
-			case watch.Modified, watch.Added:
+			case watch.Added:
 			}
 
 			pod, ok := podEvent.Object.(*corev1.Pod)
