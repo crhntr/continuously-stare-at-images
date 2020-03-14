@@ -1,6 +1,8 @@
 # continuously-stare-at-images
 Run this and see what images your cluster is using or planning on using.
 
+Use this with https://github.com/crhntr/uniqio for some fun times.
+
 It starts a watcher and prints out the names of images used for all containers in every pod (including the init and ephemeral containers).
 
 It is also a small example of using the kubernetes Go library.
