@@ -1,4 +1,7 @@
 # continuously-stare-at-images
+
+**ARCHIVED**: Consider using k9s.
+
 Run this and see what images your cluster is using or planning on using.
 
 Use this with https://github.com/crhntr/uniqio for some fun times.
